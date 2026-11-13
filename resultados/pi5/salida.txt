@@ -1,0 +1,25 @@
+Peukert 1.0
+  directo      91.2 min   52.50 km (17.47 km a 30 min)   52 vueltas  104.2 s/vuelta  pico   254 A (motor   254 A)    483 s arriba de 60 A  telemetría ve 120.4 A   35.0 Ah ( 35.0 efectivos)     806 Wh  pérdidas bat   53 Wh motor  126 Wh  vmax 47.6 km/h
+  rampa        92.9 min   53.22 km (17.39 km a 30 min)   53 vueltas  104.8 s/vuelta  pico   191 A (motor   191 A)    504 s arriba de 60 A  telemetría ve 109.5 A   35.0 Ah ( 35.0 efectivos)     809 Wh  pérdidas bat   50 Wh motor  122 Wh  vmax 47.6 km/h
+  rampa+60A    99.3 min   55.90 km (16.96 km a 30 min)   55 vueltas  106.5 s/vuelta  pico    64 A (motor    64 A)     14 s arriba de 60 A  telemetría ve  60.1 A   35.0 Ah ( 35.0 efectivos)     819 Wh  pérdidas bat   40 Wh motor  106 Wh  vmax 47.6 km/h
+Peukert 1.1
+  directo      66.2 min   38.14 km (17.45 km a 30 min)   38 vueltas  104.2 s/vuelta  pico   254 A (motor   254 A)    355 s arriba de 60 A  telemetría ve 123.6 A   25.6 Ah ( 35.0 efectivos)     589 Wh  pérdidas bat   39 Wh motor   93 Wh  vmax 47.6 km/h
+  rampa        68.2 min   39.01 km (17.36 km a 30 min)   39 vueltas  104.8 s/vuelta  pico   191 A (motor   191 A)    370 s arriba de 60 A  telemetría ve 110.1 A   25.6 Ah ( 35.0 efectivos)     593 Wh  pérdidas bat   37 Wh motor   90 Wh  vmax 47.6 km/h
+  rampa+60A    73.9 min   41.51 km (16.95 km a 30 min)   41 vueltas  106.5 s/vuelta  pico    64 A (motor    64 A)     10 s arriba de 60 A  telemetría ve  59.9 A   26.0 Ah ( 35.0 efectivos)     608 Wh  pérdidas bat   30 Wh motor   79 Wh  vmax 47.6 km/h
+Peukert 1.2
+  directo      47.9 min   27.58 km (17.41 km a 30 min)   27 vueltas  104.2 s/vuelta  pico   254 A (motor   254 A)    258 s arriba de 60 A  telemetría ve 110.1 A   18.5 Ah ( 35.0 efectivos)     427 Wh  pérdidas bat   28 Wh motor   68 Wh  vmax 47.6 km/h
+  rampa        49.4 min   28.29 km (17.31 km a 30 min)   28 vueltas  104.8 s/vuelta  pico   191 A (motor   191 A)    270 s arriba de 60 A  telemetría ve 110.9 A   18.7 Ah ( 35.0 efectivos)     432 Wh  pérdidas bat   27 Wh motor   66 Wh  vmax 47.6 km/h
+  rampa+60A    54.5 min   30.57 km (16.93 km a 30 min)   30 vueltas  106.5 s/vuelta  pico    64 A (motor    64 A)      8 s arriba de 60 A  telemetría ve  60.0 A   19.2 Ah ( 35.0 efectivos)     449 Wh  pérdidas bat   22 Wh motor   59 Wh  vmax 47.5 km/h
+Peukert 1.3
+  directo      34.4 min   19.86 km (17.35 km a 30 min)   19 vueltas  104.2 s/vuelta  pico   254 A (motor   254 A)    185 s arriba de 60 A  telemetría ve 117.7 A   13.4 Ah ( 35.0 efectivos)     308 Wh  pérdidas bat   21 Wh motor   49 Wh  vmax 47.5 km/h
+  rampa        35.9 min   20.51 km (17.22 km a 30 min)   20 vueltas  104.8 s/vuelta  pico   191 A (motor   191 A)    196 s arriba de 60 A  telemetría ve 112.1 A   13.6 Ah ( 35.0 efectivos)     313 Wh  pérdidas bat   20 Wh motor   48 Wh  vmax 47.6 km/h
+  rampa+60A    40.2 min   22.55 km (16.90 km a 30 min)   22 vueltas  106.6 s/vuelta  pico    64 A (motor    64 A)      6 s arriba de 60 A  telemetría ve  59.8 A   14.2 Ah ( 35.0 efectivos)     332 Wh  pérdidas bat   16 Wh motor   44 Wh  vmax 47.5 km/h
+Barrido del umbral (Peukert 1.2, rampa + límite)
+   30 A:  41.12 km en  81.3 min, 15.04 km a 30 min, 118.0 s/vuelta, pico motor    35 A
+   40 A:  33.62 km en  62.5 min, 16.11 km a 30 min, 111.0 s/vuelta, pico motor    44 A
+   50 A:  31.69 km en  57.2 min, 16.63 km a 30 min, 108.0 s/vuelta, pico motor    54 A
+   60 A:  30.57 km en  54.5 min, 16.93 km a 30 min, 106.5 s/vuelta, pico motor    64 A
+   80 A:  29.16 km en  51.2 min, 17.16 km a 30 min, 105.3 s/vuelta, pico motor    83 A
+  100 A:  28.53 km en  50.0 min, 17.28 km a 30 min, 104.9 s/vuelta, pico motor   102 A
+  150 A:  28.37 km en  49.5 min, 17.31 km a 30 min, 104.8 s/vuelta, pico motor   151 A
+  200 A:  28.29 km en  49.4 min, 17.31 km a 30 min, 104.8 s/vuelta, pico motor   191 A

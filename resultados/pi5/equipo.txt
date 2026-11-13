@@ -1,0 +1,17 @@
+Equipo: Raspberry Pi 5 de 8 GB del laboratorio (pios), 29 oct 2026
+Sistema: Debian GNU/Linux 13 (trixie), Linux 6.18.50+rpt-rpi-2712 aarch64
+Procesador: Cortex-A76, 4 núcleos, 2400027136 Hz
+Compilador: gcc (Debian 14.2.0-19) 14.2.0
+Compilado: gcc -std=c99 -O2 -Wall -Wextra -o electraton electraton.c -lm (sin advertencias)
+sha256 electraton.c: 507d3563d7d020e674eec756923dae9256a55ef3128349590af572116188b09b
+Pruebas (--prueba): ok
+Corrida completa (12 carreras y el barrido de 8 umbrales): 6.158 s
+Por carrera (medir_tiempo.c, mejor y peor de 5):
+  Peukert 1.0 directo     91.2 min de carrera: 0.401 s a 0.402 s (5 veces)
+  Peukert 1.0 rampa       92.9 min de carrera: 0.412 s a 0.413 s (5 veces)
+  Peukert 1.0 rampa+60A   99.3 min de carrera: 0.450 s a 0.451 s (5 veces)
+  Peukert 1.2 directo     47.9 min de carrera: 0.251 s a 0.252 s (5 veces)
+  Peukert 1.2 rampa       49.4 min de carrera: 0.260 s a 0.262 s (5 veces)
+  Peukert 1.2 rampa+60A   54.5 min de carrera: 0.291 s a 0.292 s (5 veces)
+Temperatura al terminar: 51.0'C, throttled=0x0
+Comparación: resultados.json, serie_3min.csv, telemetria_20s.csv y barrido_umbral.csv son idénticos bit a bit (sha256) a la corrida en la Mac con Apple clang.
